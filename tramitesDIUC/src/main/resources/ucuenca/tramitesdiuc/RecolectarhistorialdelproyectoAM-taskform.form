@@ -1,0 +1,256 @@
+
+<form id="2096788426">
+<property name="name" value="RecolectarhistorialdelproyectoAM-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="7" name="historial_observaciones_fisicos" type="InputText" id="1343421842">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;observaciones_fisicos (historial)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="historial/observaciones_fisicos"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="29" name="tramite_telefono_contacto" type="InputText" id="1854475144">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;telefono_contacto (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/telefono_contacto"/>
+<property name="outputBinding" value="tramite/telefono_contacto"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="historial_fecha_fisicos" type="InputDate" id="837090342">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fecha_fisicos (historial)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="historial/fecha_fisicos"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="10" name="tramite_convocatoria" type="InputText" id="1810685032">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;convocatoria (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/convocatoria"/>
+<property name="outputBinding" value="tramite/convocatoria"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="archivos_fisicos" type="CheckBox" id="1446328893">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;archivos_fisicos (archivos_fisicos)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="archivos_fisicos"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="9" name="tramite_codigo_proyecto" type="InputText" id="1279685774">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;codigo_proyecto (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/codigo_proyecto"/>
+<property name="outputBinding" value="tramite/codigo_proyecto"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="historial_fecha_informe_historial" type="InputDate" id="2128479699">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fecha_informe_historial (historial)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="historial/fecha_informe_historial"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="23" name="tramite_observaciones_aprobacion" type="InputText" id="1001769464">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;observaciones_aprobacion (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/observaciones_aprobacion"/>
+<property name="outputBinding" value="tramite/observaciones_aprobacion"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="15" name="tramite_fecha_validacion" type="InputDate" id="359260600">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fecha_validacion (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/fecha_validacion"/>
+<property name="outputBinding" value="tramite/fecha_validacion"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="14" name="tramite_fecha_solicitud" type="InputDate" id="1714124344">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fecha_solicitud (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/fecha_solicitud"/>
+<property name="outputBinding" value="tramite/fecha_solicitud"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="6" name="historial_observaciones_digitales" type="InputText" id="1797480565">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;observaciones_digitales (historial)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="historial/observaciones_digitales"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="11" name="tramite_estado_tramite" type="InputText" id="830088675">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;estado_tramite (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/estado_tramite"/>
+<property name="outputBinding" value="tramite/estado_tramite"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="27" name="tramite_respuesta" type="InputText" id="1565849143">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;respuesta (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/respuesta"/>
+<property name="outputBinding" value="tramite/respuesta"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="18" name="tramite_informe_final" type="Subform" id="247082399">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;informe_final (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/informe_final"/>
+<property name="outputBinding" value="tramite/informe_final"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="13" name="tramite_fecha_aprobacion" type="InputDate" id="503646115">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fecha_aprobacion (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/fecha_aprobacion"/>
+<property name="outputBinding" value="tramite/fecha_aprobacion"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="28" name="tramite_solicitante" type="InputText" id="1296383203">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;solicitante (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/solicitante"/>
+<property name="outputBinding" value="tramite/solicitante"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="12" name="tramite_fecha_actualizacion" type="InputDate" id="1224728406">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fecha_actualizacion (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/fecha_actualizacion"/>
+<property name="outputBinding" value="tramite/fecha_actualizacion"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="4" name="historial_id" type="InputTextLong" id="35387569">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (historial)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="historial/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="22" name="tramite_observaciones_actualizacion" type="InputText" id="38273826">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;observaciones_actualizacion (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/observaciones_actualizacion"/>
+<property name="outputBinding" value="tramite/observaciones_actualizacion"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="24" name="tramite_observaciones_validacion" type="InputText" id="1745403298">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;observaciones_validacion (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/observaciones_validacion"/>
+<property name="outputBinding" value="tramite/observaciones_validacion"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="21" name="tramite_nro_tramite" type="InputTextInteger" id="1881006838">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nro_tramite (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/nro_tramite"/>
+<property name="outputBinding" value="tramite/nro_tramite"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="26" name="tramite_prorroga" type="Subform" id="1437646300">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;prorroga (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/prorroga"/>
+<property name="outputBinding" value="tramite/prorroga"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="8" name="historial_oficios" bag-type="ucuenca.tramitesdiuc.oficio" type="MultipleSubform" id="1133401123">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;oficios (historial)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="historial/oficios"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="31" name="tramite_titulo_proyecto" type="InputText" id="795008525">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;titulo_proyecto (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/titulo_proyecto"/>
+<property name="outputBinding" value="tramite/titulo_proyecto"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="16" name="tramite_id" type="InputTextLong" id="1267732833">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/id"/>
+<property name="outputBinding" value="tramite/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="19" name="tramite_miembro" type="Subform" id="1158245816">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;miembro (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/miembro"/>
+<property name="outputBinding" value="tramite/miembro"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="2" name="historial_fecha_historial" type="InputDate" id="888578242">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fecha_historial (historial)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="historial/fecha_historial"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="5" name="historial_informe_digitales" type="InputText" id="1906058086">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;informe_digitales (historial)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="historial/informe_digitales"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="30" name="tramite_tipo_tramite" type="InputText" id="1753280059">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;tipo_tramite (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/tipo_tramite"/>
+<property name="outputBinding" value="tramite/tipo_tramite"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="17" name="tramite_informe_avance" type="Subform" id="1627062727">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;informe_avance (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/informe_avance"/>
+<property name="outputBinding" value="tramite/informe_avance"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="20" name="tramite_miembros" bag-type="ucuenca.tramitesdiuc.miembros" type="MultipleSubform" id="775466116">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;miembros (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/miembros"/>
+<property name="outputBinding" value="tramite/miembros"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="25" name="tramite_presupuesto" type="Subform" id="1895338887">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;presupuesto (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/presupuesto"/>
+<property name="outputBinding" value="tramite/presupuesto"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="archivos_fisicos" value="java.lang.Boolean" id="archivos_fisicos"/>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="historial" value="ucuenca.tramitesdiuc.historial_proyecto" id="historial"/>
+<dataHolder inputId="tramite" name="#FF54A7" type="dataModelerEntry" outId="tramite" value="ucuenca.tramitesdiuc.tramite" id="tramite"/>
+</form>
